@@ -24,6 +24,17 @@ yarn install
 yarn dev
 ```
 
+## Functionalities
+
+- Display posts
+- Pick random post
+- Post submission
+- Post management
+
+## Why
+
+To scratch my own itch on having a minimal CMS that allow submission from strangers.
+
 ## Screenshots
 
 ### Home
