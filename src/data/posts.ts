@@ -79,8 +79,14 @@ export function findPost({id}: { id: number }): PostRecord {
 }
 
 export function findRandomPostId(): number {
-  const statement = db.prepare('SELECT id FROM posts ORDER BY RANDOM() LIMIT 1')
-  const id = statement.pluck(true).get()
+  const statement = db.prepare(
+    [
+      'SELECT id FROM posts',
+      'WHERE state = ?',
+      'ORDER BY RANDOM() LIMIT 1',
+    ].join(' '),
+  )
+  const id = statement.pluck(true).get('accepted')
   return id
 }
 
