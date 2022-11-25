@@ -46,6 +46,7 @@ export function findPostsV2(
   }
   query.offset(limit * (page - 1))
   query.limit(limit)
+  query.orderBy('id')
   console.log(query.toQuery())
   return db.prepare(query.toQuery()).all()
 }
