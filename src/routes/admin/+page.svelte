@@ -1,5 +1,7 @@
 <script lang="ts">
-  import { localMarked as marked } from '../../lib/md'
+  import type { PageServerData } from './$types'
+
+  export let data: PageServerData
 
   let page = 1
   let limit = 6
@@ -45,6 +47,10 @@
     return false
   }
 </script>
+
+<svelte:head>
+  <title>{data.title} Administrator Page</title>
+</svelte:head>
 
 <p>
   <input
@@ -126,7 +132,7 @@
   <input
     type="number"
     min="1"
-    style="width: 4em"
+    style="width: 4em; display: inline"
     bind:value={page}
     on:keyup={e => e.key === 'Enter' && fetchPosts()}
   />

@@ -1,6 +1,7 @@
 import type { PageServerLoad } from './$types'
 import type { PostRecord } from '../data/posts'
 import { findPostsV2, countPostsBySearchInput, countPosts } from '../data/posts'
+import { DEFAULT_TITLE } from '$env/static/private'
 
 export const load: PageServerLoad = async ({url}) => {
   const page = Number.parseInt(
@@ -27,5 +28,6 @@ export const load: PageServerLoad = async ({url}) => {
   return {
     posts,
     total,
+    title: DEFAULT_TITLE,
   }
 }

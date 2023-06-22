@@ -5,6 +5,10 @@
   export let data: PageServerData;
 </script>
 
+<svelte:head>
+  <title>{data.title}</title>
+</svelte:head>
+
 <p>
   <Post post={data.post} expanded={true}/>
 </p>

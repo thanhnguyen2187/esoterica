@@ -45,6 +45,10 @@
 
 </script>
 
+<svelte:head>
+  <title>{data.title}</title>
+</svelte:head>
+
 <p>
   <input
     type="text"
@@ -66,7 +70,7 @@
     bind:value={page}
     min="1"
     max={lastPage}
-    style="width: 4em"
+    style="width: 4em; display: inline"
     on:keyup={e => e.key === 'Enter' && redirectToPage(page)}
   /> / {lastPage}
   <button on:click={_ => redirectToPage(page + 1)}> > </button>
