@@ -36,15 +36,15 @@ yarn dev
 
 To scratch my own itch on having a minimal CMS that allow submission from strangers.
 
-## Demos
+## GIFs
 
 ### Home
 
-https://raw.githubusercontent.com/thanhnguyen2187/esoterica/master/docs/demos/home.mp4
+![](/docs/screenshots/home.gif)
 
 ### Admin
 
-https://raw.githubusercontent.com/thanhnguyen2187/esoterica/master/docs/demos/admin.mp4
+![](/docs/screenshots/admin.gif)
 
 ## TODO
 
