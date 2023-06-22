@@ -11,6 +11,7 @@ Or a simple CMS that I created with SimpleCSS, SvelteJS, and Sqlite.
 - Change the content within `.env`:
   - `DB_FILE`: where the Sqlite file is located
   - `ADMIN_AUTH`: a pair of `username:password` to access the admin page at (`/admin`)
+  - `DEFAULT_TITLE`: the website's default title
 - Make sure that `yarn` is ready
 - Install dependencies
 
@@ -35,19 +36,15 @@ yarn dev
 
 To scratch my own itch on having a minimal CMS that allow submission from strangers.
 
-## Screenshots
+## Demos
 
 ### Home
 
-![](/docs/screenshots/home.png)
-
-### Post
-
-![](/docs/screenshots/post.png)
+![](/docs/demos/home.mp4)
 
 ### Admin
 
-![](/docs/screenshots/admin.png)
+![](/docs/demos/admin.mp4)
 
 ## TODO
 
