@@ -40,11 +40,11 @@ To scratch my own itch on having a minimal CMS that allow submission from strang
 
 ### Home
 
-![](/docs/demos/home.mp4)
+https://raw.githubusercontent.com/thanhnguyen2187/esoterica/master/docs/demos/home.mp4
 
 ### Admin
 
-![](/docs/demos/admin.mp4)
+https://raw.githubusercontent.com/thanhnguyen2187/esoterica/master/docs/demos/admin.mp4
 
 ## TODO
 
