@@ -17,11 +17,18 @@
       {post.title}
     </a>
   </h2>
-  {#if post.author}
-    <p>
-      {post.author}
-    </p>
-  {/if}
+  <div style="display: flex; gap: 2em; justify-content: space-between;">
+    {#if post.author}
+      <p>
+        {post.author}
+      </p>
+    {/if}
+    {#if post.created_at}
+      <p>
+        {post.created_at}
+      </p>
+    {/if}
+  </div>
   {#if expanded}
     {@html marked(post.content)}
     {#if contentParagraphs.length > 1}

@@ -15,6 +15,7 @@ export type PostRecord = {
   title: string
   author: string
   content: string
+  created_at: string
 }
 
 export function findPostsV2(
