@@ -45,8 +45,3 @@ To scratch my own itch on having a minimal CMS that allow submission from strang
 ### Admin
 
 ![](/docs/screenshots/admin.gif)
-
-## TODO
-
-- Improve `<title>`
-- Improve `favicon`
