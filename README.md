@@ -2,7 +2,7 @@
 
 > (n.) esoteric or highly specialized subjects or publications.
 
-Or a simple CMS that I created with SvelteJS, and Sqlite. A live version at: https://review-truyen-cv.xyz.
+Or a simple CMS that I created with SvelteJS, and Sqlite. Live version at: https://review-truyen-cv.xyz.
 
 ## Getting Started
 
